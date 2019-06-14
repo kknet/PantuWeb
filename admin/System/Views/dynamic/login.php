@@ -34,7 +34,7 @@
     <!-- ============================================================== -->
     <div class="splash-container">
         <div class="card ">
-            <div class="card-header text-center"><a href="<?php echo "http://".$_SERVER['HTTP_HOST']."".Config::$adminpath ?>/"><img class="logo-img" src="<?php echo "http://".$_SERVER['HTTP_HOST']."".Config::$adminpath ?>/System/Views/assets/images/logo.png" alt="logo"></a><span class="splash-description">User Login</span></div>
+            <div class="card-header text-center"><a class="navbar-brand" href="<?php echo "http://".$_SERVER['HTTP_HOST']."".Config::$adminpath ?>/">PanTu</a><span class="splash-description">User Login</span></div>
             <div class="card-body">
 
             <?php Errors::getInstance()->PrintWarnings(); ?>
