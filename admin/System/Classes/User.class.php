@@ -30,7 +30,7 @@ class User
             $basicdb = new BasicDB();
             $get_user = $basicdb->from('Users')
                 ->where('EMAIL', $user_email)
-                ->where('PASSWORD', $user_password)
+                ->where('PASSWORD', md5($user_password))
                 ->all();
 
 
@@ -83,7 +83,7 @@ class User
          ->set([
              "EMAIL"=>$Email,
              "USERNAME" => $Username,
-             "PASSWORD" => $Password
+             "PASSWORD" => md5($Password)
          ]);
 
     }else {

@@ -28,7 +28,7 @@ $user_details = $users->get_user_details($_SESSION['user_id']);
 
                                 </div>
                                 <a class="dropdown-item" href="/admin/account"><i class="fas fa-user mr-2"></i>Account</a>
-                                <a class="dropdown-item" href="/log-out"><i class="fas fa-power-off mr-2"></i>Log Out !</a>
+                                <a class="dropdown-item" href="/admin/log-out"><i class="fas fa-power-off mr-2"></i>Log Out !</a>
                             </div>
                         </li>
                     </ul>
