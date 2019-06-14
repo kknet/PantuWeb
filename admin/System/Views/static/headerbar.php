@@ -13,7 +13,7 @@ $user_details = $users->get_user_details($_SESSION['user_id']);
         <!-- ============================================================== -->
        <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="/admin"><?php print_r(parse_url($_SERVER['REQUEST_URI'])); ?></a>
+                <a class="navbar-brand" href="/admin">PanTu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
